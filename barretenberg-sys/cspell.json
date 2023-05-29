@@ -1,0 +1,25 @@
+{
+    "version": "0.2",
+    "ignorePaths": [
+        "target"
+    ],
+    "words": [
+        "libomp",
+        "pedersen",
+        "bindgen",
+        "Bindgen",
+        "thiserror",
+        "Barretenberg",
+        "consts",
+        "acir",
+        "schnorr",
+        "plookup",
+        "direnv",
+        "envrc",
+        "nixpkgs",
+        "clippy",
+        "subshell",
+        "phated",
+        "mybranch"
+    ]
+}
