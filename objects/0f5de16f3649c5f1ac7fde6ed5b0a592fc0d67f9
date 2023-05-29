@@ -1,0 +1,12 @@
+[module "0c20a614-7b1e-3251-a587-ff7e0c5262bd"]
+	conflict = request-pull
+	path = barretenberg
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/614150290
+[map "821deb55-4214-3f77-9874-1f3c83b6baea"]
+	object = 9d7ea0b3c0a760bd2229f905180052a97f117890
+	path = barretenberg
+	stage = sync
+	type = extract module
