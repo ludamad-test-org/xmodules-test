@@ -1,0 +1,9 @@
+target
+.DS_Store
+node_modules
+dest
+
+# Nix stuff
+result
+.envrc.local
+.direnv
