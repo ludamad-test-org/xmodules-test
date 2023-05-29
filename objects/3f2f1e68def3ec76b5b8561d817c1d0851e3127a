@@ -1,0 +1,36 @@
+[map "0a9992e5-b3b6-3bd8-baa3-ebe3dd8ae7db"]
+	object = 0c220acd8c20296218d1c6f2b32cc3ad337737f6
+	path = acvm
+	stage = sync
+	type = extract module
+[map "821deb55-4214-3f77-9874-1f3c83b6baea"]
+	object = 9d7ea0b3c0a760bd2229f905180052a97f117890
+	path = barretenberg
+	stage = sync
+	type = extract module
+[module "9956cfff-ec93-343c-9ee9-34674955372b"]
+	conflict = request-pull
+	path = acvm
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/646875408
+[module "070ecab2-e9fa-39e6-aca6-589edec7e1cc"]
+	conflict = request-pull
+	path = acvm-backend-barretenberg
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/646875835
+[module "0c20a614-7b1e-3251-a587-ff7e0c5262bd"]
+	conflict = request-pull
+	path = barretenberg
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/614150290
+[map "6842ffe2-e6a3-363e-aba5-5cb8f8596ea3"]
+	object = f6134b7b502cb74882300b0046ab91ab000daf3c
+	path = acvm-backend-barretenberg
+	stage = sync
+	type = extract module
