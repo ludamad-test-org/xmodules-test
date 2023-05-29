@@ -1,0 +1,35 @@
+[module "070ecab2-e9fa-39e6-aca6-589edec7e1cc"]
+	conflict = request-pull
+	path = acvm-backend-barretenberg
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/646875835
+[module "9956cfff-ec93-343c-9ee9-34674955372b"]
+	conflict = request-pull
+	path = acvm
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/646875408
+[module "64349de6-936b-3257-b449-41df4a2911b4"]
+	conflict = request-pull
+	path = barretenberg-sys
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/646875252
+[module "0c20a614-7b1e-3251-a587-ff7e0c5262bd"]
+	conflict = request-pull
+	path = barretenberg
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/614150290
+[module "be1a92a5-4b51-34c5-8d41-bdc988252ca5"]
+	conflict = request-pull
+	path = noir
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/646875918
