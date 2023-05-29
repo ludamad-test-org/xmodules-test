@@ -1,4 +1,4 @@
-[map "be298f8f-1577-30a8-8fcc-45bce69b4d17"]
-	object = 9e9d2a5a7f78c776efca356d9affd4880cab3dac
+[map "75c0365a-b431-396c-a3ff-622b8bcd96ef"]
+	object = aa68b94f6a6e25d8b6b92487237221c5c87c35b8
 	path = acvm-backend-barretenberg
 	type = expand module
