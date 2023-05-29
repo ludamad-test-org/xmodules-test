@@ -1,4 +1,4 @@
-[map "20ddd646-65ee-39d1-8e10-f425835b4dc4"]
+[map "0880c968-1293-345b-9e05-ec72d6b66298"]
 	object = 27d15cd90722d6cc9149965ff9fdd756e20ef861
-	path = barretenberg
+	path = acvm
 	type = expand module
